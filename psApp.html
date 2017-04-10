@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script type="text/javascript" src="https://mylightningdom-dev-ed.my.salesforce.com/lightning/lightning.out.js"></script>
+		<script>
+			function initPSFrame() {
+				$Lightning.use("c:lcvfTest", function() {
+					$Lightning.createComponent("c.LightningOutTest", {
+						
+					}, 'psFrame', function(cmp) {});
+				}, 'https://mylightningdom-dev-ed.my.salesforce.com', '00D460000000WyV!AR4AQHNJH03G.HPK0oxJ7aOAj0NdezUPYMs2fHG0QTgb73JSiHz8l7CtizOXDwy.bZRwgobf1CqX2dLNmoi6OXTCZmg8HpR0');
+			}
+			initPSFrame();
+		</script>
+		<title>Lightning Out Test</title>
+	</head>
+	<body>
+		<div id="psFrame"></div>
+	</body>
+</html>
